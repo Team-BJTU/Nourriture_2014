@@ -1,0 +1,4 @@
+#!/bin/sh 
+
+/usr/lib/node_modules/mocha/bin/mocha ./test/test.js
+

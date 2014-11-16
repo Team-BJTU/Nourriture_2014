@@ -13,6 +13,7 @@
     	"jsonwebtoken": "*",
     	"mocha": "*",
     	"superagent": "*",
+	"supertest" : "*",
     	"expect.js": "*"
   }
 }

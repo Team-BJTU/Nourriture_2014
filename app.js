@@ -7,4 +7,4 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 //app.use(require('./controllers'));
 app.listen(port);
-console.log('Express server listening on port ' + port);
+console.log('Server listening on port ' + port);

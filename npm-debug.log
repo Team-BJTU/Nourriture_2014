@@ -1,0 +1,99 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 warn package.json recipeAPI@0.0.0 No README data
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/Users/roy_m/Desktop/nourriture-jiaotong',
+6 verbose install   [ 'mongodb', 'express', 'connect', 'merge-descriptor' ] ]
+7 info preinstall recipeAPI@0.0.0
+8 verbose readDependencies using package.json deps
+9 verbose already installed skipping mongodb@* /Users/roy_m/Desktop/nourriture-jiaotong
+10 verbose already installed skipping express@* /Users/roy_m/Desktop/nourriture-jiaotong
+11 verbose already installed skipping connect@* /Users/roy_m/Desktop/nourriture-jiaotong
+12 verbose cache add [ 'merge-descriptor@*', null ]
+13 verbose cache add name=undefined spec="merge-descriptor@*" args=["merge-descriptor@*",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'merge-descriptor@*',
+14 verbose parsed url   path: 'merge-descriptor@*',
+14 verbose parsed url   href: 'merge-descriptor@*' }
+15 verbose cache add name="merge-descriptor" spec="*" args=["merge-descriptor","*"]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: '*',
+16 verbose parsed url   path: '*',
+16 verbose parsed url   href: '*' }
+17 verbose addNamed [ 'merge-descriptor', '*' ]
+18 verbose addNamed [ null, '*' ]
+19 silly lockFile 8313bddc-merge-descriptor merge-descriptor@*
+20 verbose lock merge-descriptor@* /Users/roy_m/.npm/8313bddc-merge-descriptor.lock
+21 silly addNameRange { name: 'merge-descriptor', range: '*', hasData: false }
+22 verbose request where is /merge-descriptor
+23 verbose request registry https://registry.npmjs.org/
+24 verbose request id 8f0c8fb24f19c725
+25 verbose url raw /merge-descriptor
+26 verbose url resolving [ 'https://registry.npmjs.org/', './merge-descriptor' ]
+27 verbose url resolved https://registry.npmjs.org/merge-descriptor
+28 verbose request where is https://registry.npmjs.org/merge-descriptor
+29 info trying registry request attempt 1 at 18:54:41
+30 http GET https://registry.npmjs.org/merge-descriptor
+31 http 404 https://registry.npmjs.org/merge-descriptor
+32 verbose headers { date: 'Sun, 30 Nov 2014 10:54:42 GMT',
+32 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+32 verbose headers   'content-type': 'application/json',
+32 verbose headers   'cache-control': 'max-age=0',
+32 verbose headers   'content-length': '52',
+32 verbose headers   'accept-ranges': 'bytes',
+32 verbose headers   via: '1.1 varnish',
+32 verbose headers   'x-served-by': 'cache-ty66-TYO',
+32 verbose headers   'x-cache': 'MISS',
+32 verbose headers   'x-cache-hits': '0',
+32 verbose headers   'x-timer': 'S1417344881.984889,VS0,VE186',
+32 verbose headers   'keep-alive': 'timeout=10, max=50',
+32 verbose headers   connection: 'Keep-Alive' }
+33 silly registry.get cb [ 404,
+33 silly registry.get   { date: 'Sun, 30 Nov 2014 10:54:42 GMT',
+33 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+33 silly registry.get     'content-type': 'application/json',
+33 silly registry.get     'cache-control': 'max-age=0',
+33 silly registry.get     'content-length': '52',
+33 silly registry.get     'accept-ranges': 'bytes',
+33 silly registry.get     via: '1.1 varnish',
+33 silly registry.get     'x-served-by': 'cache-ty66-TYO',
+33 silly registry.get     'x-cache': 'MISS',
+33 silly registry.get     'x-cache-hits': '0',
+33 silly registry.get     'x-timer': 'S1417344881.984889,VS0,VE186',
+33 silly registry.get     'keep-alive': 'timeout=10, max=50',
+33 silly registry.get     connection: 'Keep-Alive' } ]
+34 silly lockFile 8313bddc-merge-descriptor merge-descriptor@*
+35 silly lockFile 8313bddc-merge-descriptor merge-descriptor@*
+36 error 404 404 Not Found: merge-descriptor
+36 error 404
+36 error 404 'merge-descriptor' is not in the npm registry.
+36 error 404 You should bug the author to publish it
+36 error 404 It was specified as a dependency of 'recipeAPI'
+36 error 404
+36 error 404 Note that you can also install from a
+36 error 404 tarball, folder, or http url, or git url.
+37 error System Darwin 14.0.0
+38 error command "node" "/usr/local/bin/npm" "install"
+39 error cwd /Users/roy_m/Desktop/nourriture-jiaotong
+40 error node -v v0.10.33
+41 error npm -v 1.4.28
+42 error code E404
+43 verbose exit [ 1, true ]

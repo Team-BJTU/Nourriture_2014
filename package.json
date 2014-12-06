@@ -1,0 +1,25 @@
+{
+  "name": "recipeAPI",
+  "version": "0.0.0",
+  "description": "recipeAPI =========",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/boubaks/recipeAPI.git"
+  },
+  "author": "boubaks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boubaks/recipeAPI/issues"
+  },
+  "homepage": "https://github.com/boubaks/recipeAPI",
+  "dependencies": {
+    "mongodb": "*",
+    "express": "*",
+    "connect": "*",
+    "merge-descriptors": "*"
+  }
+}

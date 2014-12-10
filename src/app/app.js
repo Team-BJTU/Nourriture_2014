@@ -19,7 +19,7 @@ GLOBAL.db = new db();
 */
 
 app.set('port', process.env.PORT || 3000);
-app.use(express.bodyParser());
+//app.use(express.bodyParser());
 
 app.get('/', index.index);
 

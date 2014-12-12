@@ -1,24 +1,22 @@
 {
-  "name": "recipeAPI",
-  "version": "0.0.0",
-  "description": "recipeAPI =========",
-  "main": "app.js",
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/boubaks/recipeAPI.git"
-  },
-  "author": "boubaks",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/boubaks/recipeAPI/issues"
-  },
-  "homepage": "https://github.com/boubaks/recipeAPI",
   "dependencies": {
-    "mongodb": "*",
-    "express": "*",
+    "express": "3.1.1",
+    "ejs": "*",
+    "mongoose": "3.6.4",
+    "ejs-locals": "~1.0.2",
+    "passport": "~0.1.16",
+    "bcrypt": "~0.7.5",
+    "passport-local": "~0.1.6",
+    "connect-flash": "~0.1.0",
+    "express-validator": "~0.3.2",
+    "express-mailer": "~0.2.0",
+     "mongodb": "*",
     "connect": "*",
     "merge-descriptors": "*"
   }

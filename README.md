@@ -7,4 +7,4 @@ How to launch the project:
     sudo mongod -dbpath lib/
     ./api
 
-Dev by Team Bjtu 
+Dev by Bjtu Corp
